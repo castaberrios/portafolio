@@ -1,0 +1,79 @@
+:root{
+	--color-negro:#333;
+	--fondo-top:#d35177;
+	--header:#3b4044;
+	--color-primario:#d35177;
+	--color-contenido:#808080;
+}
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #fff;
+}
+header{
+	background-color: #fff;
+}
+#header-top{
+	background-color: var(--fondo-top);
+	padding: 10px 0;
+}
+.list-top a{
+	color: #fff;
+}
+.list-top a:hover{
+	color: var(--color-contenido);
+	text-decoration: none;
+}
+.carousel-caption{
+	display: grid;
+	align-content: center;
+	height: 100%;
+	text-align: left;
+}
+.carousel-caption h2{
+	font-size: 50px;
+	margin-bottom:30px; 
+}
+.carousel-caption p{
+	font-size: 20px;
+}
+
+
+.btn-primary{
+	background-color: var(--color-primario);
+	border: 0;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.btn-primary:hover{
+	background-color: #fff;
+	color: var(--color-negro);
+}
+ .h2,
+.wedding p{
+	color: #fff;
+}
+.wedding h2 span{
+	color: #d35177;
+}
+
+footer{
+	background-color: var(--color-negro);
+	color: #fff;
+	padding: 25px 0;
+	font-size: 12px;
+}
+
+.list-social i{
+	background-color: var(--color-negro);
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+}
+.list-social i:hover{
+	background-color: var(--color-primario);
+}

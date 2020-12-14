@@ -1,0 +1,52 @@
+:root{
+	--color-negro:#333;
+	--fondo-top:#d35177;
+	--header:#3b4044;
+	--color-primario:#d35177;
+	--color-contenido:#808080;
+}
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #4E4E4E;
+}
+header{
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+#header-top{
+	background-color: var(--fondo-top);
+	padding: 10px 0;
+	color: #fff;
+}
+.list-top a{
+	color: #fff;
+}
+.list-top a:hover{
+	color: var(--color-contenido);
+	text-decoration: none;
+}
+.contact{
+	margin-top: 20px;
+}
+footer{
+	background-color: var(--color-negro);
+	color: #fff;
+	padding: 25px 0;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.list-social i{
+	background-color: var(--color-negro);
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+}
+.list-social i:hover{
+	background-color: var(--color-primario);
+}
+

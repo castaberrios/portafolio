@@ -1,0 +1,123 @@
+:root{
+	--color-negro:#333;
+	--fondo-top:#d35177;
+	--header:#3b4044;
+	--color-primario:#d35177;
+	--color-contenido:#808080;
+}
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #fff;
+}
+header{
+	background-color: #fff;
+}
+#header-top{
+	background-color: var(--fondo-top);
+	padding: 10px 0;
+}
+.list-top a{
+	color: #fff;
+}
+.list-top a:hover{
+	color: var(--color-contenido);
+	text-decoration: none;
+}
+
+#centrate{
+	margin-left: 300px;
+	margin-bottom: 60px;
+	margin-top: 50px;
+	color: white;
+	}
+.bgamarillo{
+	background-color: var(--color-primario);
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.bgazul{
+	background-color: #fff;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.bggris{
+	background-color: var(--color-primario) ;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#gris1{
+	background-color: #E9E9E9;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	height: 200px;
+	width: 500px;
+}
+
+#gris2{
+	background-color: var(--color-primario);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	height: 250px;
+	width: 500px;
+}
+
+#gris3{
+	background-color: #E9e9e9;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	height: 200px;
+	width: 500px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 30px;
+	color: var(--color-primario);
+}
+h1 span{
+	text-align: center;
+	padding-top: 30px;
+	color: #FFFFFF;
+}
+
+p{
+	text-align: center;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 15px;
+	color: var(--color-primario);
+}
+
+p span{
+	text-align: center;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 15px;
+	color: #fff;
+}
+footer{
+	background-color: var(--color-negro);
+	color: #fff;
+	padding: 25px 0;
+	font-size: 12px;
+}
+
+.list-social i{
+	background-color: var(--color-negro);
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+}
+.list-social i:hover{
+	background-color: var(--color-primario);
+}
